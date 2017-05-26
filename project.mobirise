@@ -135,6 +135,14 @@
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#fac51c"
+            },
+            ".mbr-section-lead B": {
+              "color": "#b8312f"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -159,15 +167,7 @@
           },
           "title": "FIDGET SPINNER",
           "text": "<b>LA NUOVA MANIA DEL 2017</b>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features1-3\" data-toolbar=\"-mbrBtnMove\">GUARDA</a>",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#fac51c"
-            },
-            ".mbr-section-lead B": {
-              "color": "#b8312f"
-            }
-          }
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features1-3\" data-toolbar=\"-mbrBtnMove\">GUARDA</a>"
         },
         {
           "_name": "footer1",
@@ -235,6 +235,20 @@
             "Theme"
           ],
           "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#f3c649"
+            },
+            ".mbr-cards-col:nth-child(even) .card-text": {
+              "color": "#232323"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "features1-3",
           "_params": {
             "columnsColor": "#f3c649",
@@ -276,7 +290,7 @@
           "title1": "Spinner <br>Nero",
           "subtitle1": "",
           "caption1": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (NERO)",
-          "button1": "<a data-app-btn=\"true\" href=\"www.iplatinet.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://iplatinet.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/61iwbwngkyl-600x600.jpg",
@@ -292,7 +306,7 @@
           "title2": "Spinner <br>Giallo",
           "subtitle2": "",
           "caption2": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (Giallo)",
-          "button2": " <a data-app-btn=\"true\" href=\"www.iplatinet.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>   ",
+          "button2": " <a data-app-btn=\"true\" href=\"http://iplatinet.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>   ",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/spinning-top-chamsgend-funny-hot-font-b-green-b-font-fidget-font-b-spinner-b-font-600x600.jpg",
@@ -308,7 +322,7 @@
           "title3": "Spinner <br>Verde",
           "subtitle3": "",
           "caption3": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (VERDE)",
-          "button3": "<a data-app-btn=\"true\" href=\"www.iplatinet.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"http://iplatinet.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media4": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/images-600x600.jpg",
@@ -324,7 +338,7 @@
           "title4": "Spinner<br>Luminoso",
           "subtitle4": "",
           "caption4": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia per adulti (LUMINOSO)",
-          "button4": "<a data-app-btn=\"true\" href=\"www.iplatinet.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://iplatinet.com/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -348,21 +362,7 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#f3c649"
-            },
-            ".mbr-cards-col:nth-child(even) .card-text": {
-              "color": "#232323"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#000000"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         }
       ]
     }
