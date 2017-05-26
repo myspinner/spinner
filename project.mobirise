@@ -47,31 +47,31 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#c1c1c1"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#c1c1c1"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#c1c1c1",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -91,16 +91,16 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#c1c1c1"
             }
           },
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#000000",
-            "fontSize": 0.75,
+            "bgColor": "#ffffff",
+            "fontSize": "1.1",
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#c1c1c1",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -111,7 +111,8 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/spinner-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -125,12 +126,11 @@
               "family": "MobiriseIcons",
               "link": "#top",
               "size": 0,
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-0\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-0\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">COMPRA</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-0\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content8-0\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html#features1-3\">COMPRA</a></li>"
         },
         {
           "_name": "header1",
@@ -138,15 +138,17 @@
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "showArrow": true,
             "bgImage": "@PROJECT_PATH@/assets/images/170420697-7fca0a34-1424-4fa9-8346-27892e75550e-2000x1125.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/t2u1e4xXFq4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": "0.5",
             "overlayColor": "#000000",
@@ -157,7 +159,7 @@
           },
           "title": "FIDGET SPINNER",
           "text": "<b>LA NUOVA MANIA DEL 2017</b>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#content8-0\" data-toolbar=\"-mbrBtnMove\">GUARDA</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features1-3\" data-toolbar=\"-mbrBtnMove\">GUARDA</a>",
           "_styles": {
             ".mbr-section-lead": {
               "color": "#fac51c"
@@ -182,7 +184,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 spinner."
+          "text": "Copyright (c) 2017 Fidget Spinner."
         },
         {
           "_inherit": "content5",
@@ -193,7 +195,7 @@
             },
             "P": {
               "color": "#ffffff",
-              "text-align": "left"
+              "text-align": "center"
             },
             ".mbr-section-title": {
               "text-align": "center",
@@ -208,9 +210,9 @@
           "_params": {
             "paddingTop": "5",
             "paddingBottom": 3,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/170420697-7fca0a34-1424-4fa9-8346-27892e75550e-2000x1125.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -218,15 +220,15 @@
               "height": 720,
               "url": "https://www.youtube.com/embed/t2u1e4xXFq4?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.6",
             "overlayColor": "#000000",
             "showTitle": true,
             "showCaption": true
           },
           "title": "FIDGET SPINNER",
-          "caption": "<p>Fidget spinner, la nuova mania del 2017.</p><p>Il gadget scacciapensieri, disponibile online come rimedio contro i disturbi da deficit di attenzione e iperattività</p>"
+          "caption": "<p><span style=\"font-size: 1.07rem; line-height: 1.5;\">La nuova mania del 2017.</span><br></p><p>Il gadget scacciapensieri, disponibile online come rimedio contro i disturbi da deficit di attenzione e iperattività.</p><p>&nbsp;È divertente ed efficace, aiuta ad eliminare lo stress giornaliero. </p><p>Grazie alle sue misure potete portarlo in tasca e divertirvi in qualsiasi momento.&nbsp;</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Adatto per adulti e bambini.</span></p>"
         },
         {
           "_tags": [
@@ -238,11 +240,11 @@
             "columnsColor": "#f3c649",
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#41a85f",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
@@ -250,9 +252,9 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.7",
             "overlayColor": "#222",
-            "columns": "2",
+            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
@@ -261,7 +263,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/download-1-600x600.jpg",
+              "src": "@PROJECT_PATH@/assets/images/download-2-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -271,10 +273,10 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title1": "Spinner <br>Nero",
+          "subtitle1": "",
+          "caption1": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (NERO)",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/61iwbwngkyl-600x600.jpg",
@@ -287,34 +289,42 @@
               "linkInNewWindow": false
             }
           },
-          "title2": "Spinner giallo",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "troppo bello.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">colorato 19,90 €</a> ",
+          "title2": "Spinner <br>Giallo",
+          "subtitle2": "",
+          "caption2": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (Giallo)",
+          "button2": " <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>   ",
           "media3": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "src": "@PROJECT_PATH@/assets/images/spinning-top-chamsgend-funny-hot-font-b-green-b-font-fidget-font-b-spinner-b-font-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title3": "Spinner <br>Verde",
+          "subtitle3": "",
+          "caption3": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (VERDE)",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media4": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "src": "@PROJECT_PATH@/assets/images/images-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title4": "Spinner<br>Luminoso",
+          "subtitle4": "",
+          "caption4": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia per adulti (LUMINOSO)",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">19,90 €</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -344,10 +354,13 @@
               "background-color": "#f3c649"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
-              "color": "#f28281"
+              "color": "#232323"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
               "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
             }
           }
         }
