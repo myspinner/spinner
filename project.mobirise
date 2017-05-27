@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#41a85f",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 4,
+    "uniqCompNum": 8,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/170420697-7fca0a34-1424-4fa9-8346-27892e75550e-128x72.png",
     "noImageResize": ""
@@ -237,28 +237,56 @@
           "_name": "features1",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#f3c649"
+              "background-color": "#ffffff"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
               "color": "#232323"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "center"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle B": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle DIV": {
+              "text-align": "center"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle SPAN": {
+              "text-align": "right",
+              "color": "#efefef"
+            },
+            ".mbr-cards-col:nth-child(even) .card-text B": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle SPAN": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
               "color": "#000000"
             }
           },
           "_anchor": "features1-3",
           "_params": {
-            "columnsColor": "#f3c649",
+            "columnsColor": "#ffffff",
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#41a85f",
-            "bgColorRadio": false,
+            "bgColor": "#000000",
+            "bgColorRadio": true,
             "bgVideo": {
               "width": 1280,
               "height": 720,
@@ -266,7 +294,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
+            "overlayOpacity": "1",
             "overlayColor": "#222",
             "columns": "4",
             "showImages": true,
@@ -288,12 +316,12 @@
             }
           },
           "title1": "Spinner <br>Nero",
-          "subtitle1": "",
-          "caption1": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (NERO)",
-          "button1": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">18,90 €</a>",
+          "subtitle1": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti.<br><br><b style=\"font-style: normal;\">COLORE&nbsp;NERO</b><div><b style=\"font-style: normal;\">SPEDIZIONE INCLUSA</b><br></div>",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>18,90 €</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/61iwbwngkyl-600x600.jpg",
+              "src": "@PROJECT_PATH@/assets/images/tri-fidget-hand-spinner-edc-jouet-pour-adulte-enfa-600x600.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -304,9 +332,9 @@
             }
           },
           "title2": "Spinner <br>Giallo",
-          "subtitle2": "",
-          "caption2": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (Giallo)",
-          "button2": " <a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">18,90 €</a>   ",
+          "subtitle2": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti.<br><br><div style=\"text-align: center;\"><b style=\"font-size: 0.875rem; line-height: 1.7857; font-style: normal;\">COLORE </b><span style=\"font-size: 0.875rem; line-height: 1.7857;\">&nbsp;</span><b style=\"font-size: 0.875rem; line-height: 1.7857; font-style: normal;\">GIALLO</b></div><span style=\"text-align: left; color: rgb(91, 91, 91); font-size: 0.875rem; line-height: 1.7857;\"><b><span style=\"font-style: normal;\">SPEDIZIONE INCLUSA</span></b></span>",
+          "caption2": "",
+          "button2": " <a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>18,90 €</a>   ",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/spinning-top-chamsgend-funny-hot-font-b-green-b-font-fidget-font-b-spinner-b-font-600x600.jpg",
@@ -320,9 +348,9 @@
             }
           },
           "title3": "Spinner <br>Verde",
-          "subtitle3": "",
-          "caption3": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti (VERDE)",
-          "button3": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">18,90 €</a>",
+          "subtitle3": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti.<br><br><span style=\"font-style: normal;\"><b>COLORE VERDE</b></span><div><span style=\"font-style: normal;\"><b>SPEDIZIONE INCLUSA</b></span></div>",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>18,90 €</a>",
           "media4": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/images-600x600.jpg",
@@ -336,9 +364,9 @@
             }
           },
           "title4": "Spinner<br>Luminoso",
-          "subtitle4": "",
-          "caption4": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia per adulti (LUMINOSO)",
-          "button4": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">18,90 €</a>",
+          "subtitle4": "Fidget Mano Dito Spinner Spin Widget Focus Giocattolo Antistress Alta Velocità Superb Cuscinetto Fidget Toy Tasca Desktoy - Rotazione da 3-5 minuto - Perfetto per Ansia bambini per adulti.<div><br></div><div><b style=\"font-style: normal;\">LUMINOSO</b></div><div><b style=\"font-style: normal;\">SPEDIZIONE INCLUSA</b></div>",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZG7GVCE4WT7W8\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">18,90 €</a>  ",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
@@ -363,6 +391,107 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "testimonial": [
+            {
+              "text": "<p>“Mi passo il tempo. Simpatica novità. Soddisfatta.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Francesca",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>“Molto carino. Grazie.</p><p>Bella invenzione.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Roberta",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>“Ci gioco ogni giorno. Mi toglie lo stress e mi fa distrarre perchè ho smesso di fumare da poco.</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/14237567-10207190632069517-1943250329550159205-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Ale",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials2-5",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true
+          },
+          "title": "COSA DICONO ALCUNI CLIENTI",
+          "subtitle": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "SEGUICI",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Chi-me-lo-regala-128682477686363/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         "
         }
       ]
     }
