@@ -52,6 +52,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -408,9 +414,6 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #41a85f;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
-}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -425,11 +428,11 @@ h6,
   color: #c1c1c1;
 }
 #menu-0 .link {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 #menu-0 .dropdown-item,
 #menu-0 .nav-dropdown-sm .link {
-  font-size: 1.191rem;
+  font-size: 1.300rem;
 }
 #menu-0 .link:hover,
 #menu-0 .dropdown-item:hover,
@@ -546,4 +549,85 @@ h6,
 }
 #form1-a .mbr-section-title {
   text-align: center;
+}
+#form2-f .mbr-section-title {
+  color: #fff;
+}
+#form2-f .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#form2-g .mbr-section-title {
+  color: #fff;
+}
+#form2-g .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#pricing-table2-i .mbr-plan-header,
+#pricing-table2-i .mbr-plan-body {
+  background-color: #f4f4f4;
+}
+#pricing-table2-i ul,
+#pricing-table2-i .mbr-plan-title,
+#pricing-table2-i .mbr-price-value,
+#pricing-table2-i .mbr-price-figure,
+#pricing-table2-i .mbr-price-term {
+  color: #28262b;
+}
+#pricing-table2-i .mbr-plan {
+  border-color: #e8e8e8;
+}
+#pricing-table2-i .mbr-plan .list-group-item {
+  border-color: #cfcfcf;
+}
+#form1-j .form-control-label {
+  color: #232323;
+}
+#form1-k .form-control-label {
+  color: #232323;
+}
+#form1-l .form-control-label {
+  color: #232323;
+}
+#form1-m .form-control-label {
+  color: #232323;
+}
+#form1-n .form-control-label {
+  color: #232323;
+}
+#form1-o .form-control-label {
+  color: #232323;
+}
+#form1-p .form-control-label {
+  color: #232323;
+}
+#form1-q .form-control-label {
+  color: #232323;
+}
+#form1-r .form-control-label {
+  color: #232323;
+}
+#form1-s .form-control-label {
+  color: #232323;
+}
+#form1-h .form-control-label {
+  color: #232323;
+}
+#header1-v .mbr-section-title {
+  color: #d14841;
+}
+#header4-z .mbr-section-title {
+  color: #ffffff;
+}
+#content2-11 P {
+  text-align: left;
+}
+#msg-box1-15 H3 {
+  color: #ffffff;
+}
+#form1-14 .form-control-label {
+  color: #232323;
+}
+#social-buttons3-13 .mbr-section-title,
+#social-buttons3-13 .btn-social {
+  color: #fff;
 }
