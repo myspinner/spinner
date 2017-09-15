@@ -53,7 +53,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/20525738-985115201630344-3267822253428538811-n-2000x2000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/schermata-2017-09-15-alle-16-2000x1309.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -70,8 +70,8 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "MOTOR VILLAGE&nbsp;<br><br>",
-          "text": "Il Pal'Art Hotel di Acireale ospiterà il Motor Village, un evento che porta la passione per i motori, le donne, il cibo, la birra e il rock and roll, in uno degli spazi più <br>incredibili del sud Italia<br>",
+          "title": "<span style=\"font-size: 4.39rem; line-height: 1.1;\">MOTOR VILLAGE&nbsp;</span><br><br>",
+          "text": "Il Pal'Art Hotel di Acireale ospiterà il Motor Village, un evento che porta la passione per i motori, le donne, il cibo, la birra e il rock and roll, in uno degli spazi più <br>incredibili del sud Italia.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#msg-box2-5\" data-toolbar=\"-mbrBtnMove\">22-23-24Settembre2017</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"index.html#gallery1-1\" data-toolbar=\"-mbrBtnMove\">29-30Settembre-01Ottobre2017</a>"
         },
         {
@@ -340,29 +340,6 @@
             "odnoklassniki": false
           },
           "text": "CONDIVIDI&nbsp;"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-k",
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?time_continue=35&v=4csCgEWigE0",
-              "autoplay": "on",
-              "loop": "on",
-              "active": true
-            }
-          },
-          "_params": {
-            "showText": true
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
         }
       ]
     }
