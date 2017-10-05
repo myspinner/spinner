@@ -414,7 +414,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/insicilia-logo-128x47.png",
+              "src": "@PROJECT_PATH@/assets/images/insicilialogo-128x57.png",
               "width": 128,
               "active": true,
               "link": "",
