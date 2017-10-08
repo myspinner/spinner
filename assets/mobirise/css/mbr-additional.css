@@ -418,12 +418,16 @@ h6,
   opacity: 0 !important;
 }
 #header1-0 .mbr-section-title {
-  font-size: 46px;
-  color: #fac51c;
+  font-size: 36px;
+  color: #f3c649;
 }
 #header1-0 .mbr-section-lead SPAN {
-  font-size: 24px;
+  font-size: 30px;
   color: #ffffff;
+}
+#header1-0 .mbr-section-lead {
+  font-size: 32px;
+  color: #f7da64;
 }
 #form2-1 .mbr-section-title {
   color: #f3c649;
@@ -433,18 +437,21 @@ h6,
   color: #efefef;
 }
 #form2-1 .btn {
-  font-size: 10px;
+  font-size: 12px;
 }
 #msg-box5-9 H3 {
+  color: #f3c649;
+}
+#testimonials2-6 .mbr-section-title {
   color: #f3c649;
 }
 #social-buttons1-7 .mbr-section-title {
   color: #ffffff;
 }
-#testimonials2-6 .mbr-section-title {
-  color: #f3c649;
-}
 #contacts1-8 P {
   color: #f3c649;
   text-align: center;
+}
+#contacts1-8 STRONG {
+  color: #ffffff;
 }

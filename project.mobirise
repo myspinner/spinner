@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -45,12 +45,16 @@
           "_name": "header1",
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "46px",
-              "color": "#fac51c"
+              "font-size": "36px",
+              "color": "#f3c649"
             },
             ".mbr-section-lead SPAN": {
-              "font-size": "24px",
+              "font-size": "30px",
               "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "font-size": "32px",
+              "color": "#f7da64"
             }
           },
           "_anchor": "header1-0",
@@ -58,7 +62,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ok-3-2000x1000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/okkk-9-2000x1000.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -73,9 +77,9 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<br><br>Festa della Birra",
-          "text": "dal 1 al 31 Ottobre<br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-weight: bold; font-style: normal;\">Ricevi Sconti </span></span><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-weight: bold; font-style: normal;\">e </span></span><b><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-style: normal;\">Spedizione gratuita.</span></span><br></b><span style=\"font-size: 1.5rem; line-height: 1.5;\">www.insicilia.com</span><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI LE BIRRE<br>ARITGIANALI<br></a> "
+          "title": "<br><br><br>Festa&nbsp;della Birra",
+          "text": "dal 1 al 31 Ottobre<br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-weight: bold; font-style: normal;\">Tutte le birre artigianali sono quasi regalate</span></span><b><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-style: normal;\">.</span></span><br>www.insicilia.com<br></b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI <br>I MIGLIORI PREZZI DEL WEB&nbsp;<br></a> "
         },
         {
           "_styles": {
@@ -87,7 +91,7 @@
               "color": "#efefef"
             },
             ".btn": {
-              "font-size": "10px"
+              "font-size": "12px"
             }
           },
           "_tags": [
@@ -100,7 +104,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12-2-2000x1120.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1120.jpg",
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
@@ -109,21 +113,124 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "Ricevi subito la promozione",
-          "subtitle": "Lascia la tua email e ricevi sconti e spedizione gratis.",
+          "title": "Ricevi subito il coupon sconto",
+          "subtitle": "Lascia la tua email e ricevi un ulteriore sconto sul prezzo più basso del web.",
           "form": {
             "action": "andrea.cavallaro@msn.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Grazie!!!"
             },
             "fields": {
               "email": {
                 "title": "Email",
-                "customTitle": "inserisci email"
+                "customTitle": "inserisci la tua email"
               }
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SCOPRI</a>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000.jpg",
+                "caption": "BIRRA AI 5 GRANI 33CL",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000.jpg",
+                "caption": "BIRRA AMBRA SENZA GLUTINE 75 CL.",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000.jpg",
+                "caption": "BOTTIGLIA 33CL BIRRA BIONDA IRIAS AL FICO D'INDIA DI SICILIA",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000.jpg",
+                "caption": "BOTTIGLIA DA 33CL BIRRA BIONDA RIBADI ALLE SPEZIE DI SICILIA",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000.jpg",
+                "caption": "BIRRA AROMATIZZATA RIBADI ALL'UVA DI PANTELLERIA 33CL",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000.jpg",
+                "caption": "BOTTIGLIA 50CL BIRRA DOPPIO MALTO<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000.jpg",
+                "caption": "BOTTIGLIA DA 50CL BIRRA MALTO D'ORZO DONNA DI COPPE",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000.jpg",
+                "caption": "BIRRA PILSNER RIBADI AI GRANI DI SICILIA 75CL",
+                "active": false
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-a",
+          "articleLayout": false,
+          "allItem": "All"
         },
         {
           "_tags": [
@@ -177,110 +284,95 @@
           },
           "title": "Festeggia con noi",
           "text": "In occasione dell' <b>Oktoberfest</b> (Festa d'ottobre, in bavarese Wiesn) <br>il festival popolare che si tiene ogni anno a Monaco di Baviera.<br><b>insicilia.com</b> festeggia con i suoi clienti il mese di Ottobre offrendo la sua pregiata collezione di birre artigianali a prezzi imbattibili.<br><b>Tante promozioni ti aspettano...</b><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI LA PROMO</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICEVI LA PROMOZIONE</a>"
         },
         {
-          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "0",
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "0",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
+          "_name": "testimonials2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#f3c649"
+            }
           },
-          "_anchor": "gallery2-a",
-          "articleLayout": false,
-          "allItem": "All"
+          "testimonial": [
+            {
+              "text": "<p>Sono molto contento. Ho sperimentato nuovi gusti &nbsp;e birre artigianali siciliane.</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/11066536-10206780056843202-6724208860269624067-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Biagio&nbsp;",
+              "authorBio": ""
+            },
+            {
+              "text": "Questa è stata la buona occasione per scegliere i prodotti di insicilia.com in promozione.",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/71675-457218909003-1889378-n-160x120.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Francesco",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>Pensavo che in Sicilia si fa solo il vino! Sono tanti i birrifici artigianali che lavorano con passione ed estrema competenza. </p><p>Sono rimasto molto soddisfatto.&nbsp;</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/21740294-120515838690406-8232567404811584895-n-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "GIanni&nbsp;",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials2-6",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "Cosa dicono di noi",
+          "subtitle": "I commenti di alcuni nostri clienti."
         },
         {
           "_tags": [
@@ -316,87 +408,14 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "testimonials2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#f3c649"
-            }
-          },
-          "testimonial": [
-            {
-              "text": "<p>Sono molto contenta. Le birre artigianali siciliane sono davvero il meglio per sperimentare gusti mai provati!</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Biagia&nbsp;",
-              "authorBio": ""
-            },
-            {
-              "text": "Questa è la terza occasione di scegliere le promozioni di insicilia.com",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Francesca",
-              "authorBio": ""
-            },
-            {
-              "text": "<p>Pensavo che in Sicilia si fa solo il vino! Sono tanti i birrifici artigianali che lavorano con passione ed estrema competenza. </p><p>Sono rimasta molto soddisfatta.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "GIanna&nbsp;",
-              "authorBio": ""
-            }
-          ],
-          "_anchor": "testimonials2-6",
-          "_params": {
-            "count": 3,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.2,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "Cosa dicono di noi",
-          "subtitle": "I commenti dei nostri clienti affezionati."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
           "_name": "contacts1",
           "_styles": {
             "P": {
               "color": "#f3c649",
               "text-align": "center"
+            },
+            "STRONG": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "contacts1-8",
