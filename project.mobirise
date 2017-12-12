@@ -52,14 +52,15 @@
             },
             ".mbr-section-lead SPAN": {
               "font-size": "19px",
-              "color": "#e25041"
+              "color": "#faaf40"
             },
             ".mbr-section-lead": {
               "font-size": "30px",
               "color": "#000000"
             },
             ".mbr-section-title DIV": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#faaf40"
             },
             ".btn": {
               "font-size": "25px"
@@ -73,7 +74,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bubu-5-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/okok-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -88,7 +89,7 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<br><span style=\"line-height: 1.1;\"><br></span><div><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br></div>",
+          "title": "<br><div><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br></div>",
           "text": "<span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\">ti conviene!</span><span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\"><br></span>Aziende, Professionisti, Privati.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
@@ -102,7 +103,7 @@
               "color": "#efefef"
             },
             ".btn": {
-              "font-size": "12px"
+              "font-size": "9px"
             }
           },
           "_tags": [
@@ -115,11 +116,11 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/ooo-2000x627.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/nono-1-2000x605.jpg",
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.6",
             "overlayColor": "#000000",
             "showTitle": true,
             "showSubTitle": true
@@ -210,11 +211,12 @@
           "_name": "msg-box5",
           "_styles": {
             "H3": {
-              "color": "#f3c649",
+              "color": "#faaf40",
               "font-size": "48px"
             },
             "SPAN": {
-              "font-size": "36px"
+              "font-size": "36px",
+              "color": "#faaf40"
             }
           },
           "_anchor": "msg-box5-9",
@@ -268,7 +270,7 @@
           "_name": "testimonials2",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#f3c649"
+              "color": "#faaf40"
             }
           },
           "testimonial": [
@@ -356,7 +358,7 @@
           "_name": "social-buttons1",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#faaf40"
             }
           },
           "_anchor": "social-buttons1-7",
