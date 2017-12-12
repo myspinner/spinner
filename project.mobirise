@@ -51,12 +51,18 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             },
             ".mbr-section-lead SPAN": {
-              "font-size": "30px",
+              "font-size": "19px",
               "color": "#ffffff"
             },
             ".mbr-section-lead": {
-              "font-size": "84px",
-              "color": "#faaf40"
+              "font-size": "30px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "left"
+            },
+            ".btn": {
+              "font-size": "20px"
             }
           },
           "_anchor": "header1-0",
@@ -64,7 +70,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/provaprova-2000x1314.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bubu-3-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -72,15 +78,15 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
+            "overlayOpacity": "0.4",
             "overlayColor": "#000",
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
-          "title": "<span style=\"line-height: 1.1;\"><br></span><br><span style=\"line-height: 1.1;\"><br></span><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br><br>",
-          "text": "ti conviene!<br><span style=\"font-style: normal; line-height: 36px;\"><b>Aziende, Professionisti, Privati.</b></span>",
+          "title": "<br><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br>",
+          "text": "<span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\">ti conviene!</span><span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\"><br></span>Aziende, Professionisti, Privati.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI <br>LE OFFERTE SPECIALI<br></a> "
         },
         {
