@@ -6,10 +6,10 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#d14841",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
+        "infoColor": "#d14841",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
@@ -46,15 +46,17 @@
           "_styles": {
             ".mbr-section-title": {
               "font-size": "36px",
-              "color": "#f3c649"
+              "color": "#faaf40",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             },
             ".mbr-section-lead SPAN": {
               "font-size": "30px",
               "color": "#ffffff"
             },
             ".mbr-section-lead": {
-              "font-size": "32px",
-              "color": "#f7da64"
+              "font-size": "84px",
+              "color": "#faaf40"
             }
           },
           "_anchor": "header1-0",
@@ -62,7 +64,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/okkk-9-2000x1000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/provaprova-2000x1314.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -70,16 +72,16 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.3",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
-          "title": "<br><br><br>Festa&nbsp;della Birra",
-          "text": "dal 1 al 31 Ottobre<br><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-weight: bold; font-style: normal;\">Tutte le birre artigianali sono quasi regalate</span></span><b><span style=\"font-size: 1.5rem; line-height: 1.5;\"><span style=\"font-style: normal;\">.</span></span><br>www.insicilia.com<br></b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI <br>I MIGLIORI PREZZI DEL WEB&nbsp;<br></a> "
+          "title": "<span style=\"line-height: 1.1;\"><br></span><br><span style=\"line-height: 1.1;\"><br></span><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br><br>",
+          "text": "ti conviene!<br><span style=\"font-style: normal; line-height: 36px;\"><b>Aziende, Professionisti, Privati.</b></span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">SCOPRI <br>LE OFFERTE SPECIALI<br></a> "
         },
         {
           "_styles": {
@@ -104,7 +106,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1120.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/ooo-2000x627.jpg",
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
@@ -113,8 +115,8 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "Ricevi subito il coupon sconto",
-          "subtitle": "Lascia la tua email e ricevi un ulteriore sconto sul prezzo più basso del web.",
+          "title": "",
+          "subtitle": "",
           "form": {
             "action": "andrea.cavallaro@msn.com",
             "alerts": {
@@ -127,7 +129,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SCOPRI</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SCOPRI</a>"
         },
         {
           "_inherit": "gallery1",
@@ -137,36 +139,26 @@
           "_name": "gallery2",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingBottom": "2",
             "images": [
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-ai-5-grani-33cl-2000x2000.jpg",
-                "caption": "BIRRA AI 5 GRANI 33CL",
-                "active": true
+                "thumb": "@PROJECT_PATH@/assets/images/2-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-1-2000x2000.jpg",
+                "caption": "&nbsp;PANDA S2 <br>&nbsp;1.2 69CV E6 EASY&nbsp;",
+                "active": false
               },
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-ambra-speziata-agrumi-cl75-2000x2000.jpg",
-                "caption": "BIRRA AMBRA SENZA GLUTINE 75 CL.",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-irias-fico-india-di-sicilia-75cl-2000x2000.jpg",
-                "caption": "BOTTIGLIA 33CL BIRRA BIONDA IRIAS AL FICO D'INDIA DI SICILIA",
+                "thumb": "@PROJECT_PATH@/assets/images/3-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-2000x2000.jpg",
+                "caption": "FIAT NUOVO FIORINO<br>E6 FURGONE LASTRATO SX 1.3 &nbsp;80 CV",
                 "active": false
               },
               {
@@ -174,9 +166,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-2000x2000.jpg",
-                "caption": "BOTTIGLIA DA 33CL BIRRA BIONDA RIBADI ALLE SPEZIE DI SICILIA",
+                "thumb": "@PROJECT_PATH@/assets/images/1-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-1-2000x2000.jpg",
+                "caption": "RENEGADE MY17 <br>1.6 MULTIJET 105CV BUSINESS",
                 "active": false
               },
               {
@@ -184,43 +176,13 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-bionda-ribadi-speziata-cl33-1-2000x2000.jpg",
-                "caption": "BIRRA AROMATIZZATA RIBADI ALL'UVA DI PANTELLERIA 33CL",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-doppio-malto-50cl-2000x2000.jpg",
-                "caption": "BOTTIGLIA 50CL BIRRA DOPPIO MALTO<br>",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-malto-d-orzo-50cl-donna-di-coppe-2000x2000.jpg",
-                "caption": "BOTTIGLIA DA 50CL BIRRA MALTO D'ORZO DONNA DI COPPE",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/birra-ribadi-bionda-pilsner-cl75-2000x2000.jpg",
-                "caption": "BIRRA PILSNER RIBADI AI GRANI DI SICILIA 75CL",
-                "active": false
+                "thumb": "@PROJECT_PATH@/assets/images/4-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-1-2000x2000.jpg",
+                "caption": "JEEP COMPASS <br>LIMITED 1.6 MULTIJET 120CV 2WD",
+                "active": true
               }
             ],
-            "spacing": "1",
+            "spacing": "0",
             "showText": true,
             "filter": false,
             "bgColor": "fff",
@@ -239,7 +201,11 @@
           "_name": "msg-box5",
           "_styles": {
             "H3": {
-              "color": "#f3c649"
+              "color": "#f3c649",
+              "font-size": "48px"
+            },
+            "SPAN": {
+              "font-size": "36px"
             }
           },
           "_anchor": "msg-box5-9",
@@ -270,7 +236,7 @@
               "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=-3VJ4AQHtpM",
+              "src": "https://www.youtube.com/watch?v=APgIs5oShuE",
               "aspectratio": "16:9",
               "autoplay": "on",
               "loop": "on",
@@ -282,9 +248,9 @@
               "size": 0
             }
           },
-          "title": "Festeggia con noi",
-          "text": "In occasione dell' <b>Oktoberfest</b> (Festa d'ottobre, in bavarese Wiesn) <br>il festival popolare che si tiene ogni anno a Monaco di Baviera.<br><b>insicilia.com</b> festeggia con i suoi clienti il mese di Ottobre offrendo la sua pregiata collezione di birre artigianali a prezzi imbattibili.<br><b>Tante promozioni ti aspettano...</b><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICEVI LA PROMOZIONE</a>"
+          "title": "Tutti i servizi inclusi<br><span style=\"font-weight: normal;\">Un solo canone mensile</span>",
+          "text": "<b>Acquistare un’automobile</b> da sempre, <br>è uno dei <b>costi più significativi per una famiglia</b>.<br>Per quanto sia possibile ottenere finanziamenti o agevolazioni, <br>è comunque necessario investire una somma importante. <br>Infatti, possedere un veicolo, comporta una serie di costi <br>non trascurabili come il bollo, l’assicurazione, <br>la manutenzione periodica e quella straordinaria. <br>E allora <b>perché non noleggiare un’auto anziché comprarli</b>?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICHIEDI IL PREVENTIVO</a>"
         },
         {
           "_tags": [
@@ -298,7 +264,7 @@
           },
           "testimonial": [
             {
-              "text": "<p>Sono molto contento. Ho sperimentato nuovi gusti &nbsp;e birre artigianali siciliane.</p>",
+              "text": "<p>Sono molto contento del contratto! Il Noleggio a lungo Termine è semplicemente la soluzione migliore.</p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/11066536-10206780056843202-6724208860269624067-n-160x160.jpg",
@@ -316,7 +282,7 @@
               "authorBio": ""
             },
             {
-              "text": "Questa è stata la buona occasione per scegliere i prodotti di insicilia.com in promozione.",
+              "text": "Ho trovato la migliore occasione su Sintesi Car!",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/71675-457218909003-1889378-n-160x120.jpg",
@@ -334,7 +300,7 @@
               "authorBio": ""
             },
             {
-              "text": "<p>Pensavo che in Sicilia si fa solo il vino! Sono tanti i birrifici artigianali che lavorano con passione ed estrema competenza. </p><p>Sono rimasto molto soddisfatto.&nbsp;</p>",
+              "text": "<p>Mi complimento per la serietà ed estrema competenza. </p><p>Sono rimasto molto soddisfatto.&nbsp;</p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/21740294-120515838690406-8232567404811584895-n-160x160.jpg",
@@ -355,8 +321,8 @@
           "_anchor": "testimonials2-6",
           "_params": {
             "count": 3,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "2",
             "showImages": true,
             "showName": true,
             "showBio": true,
@@ -390,7 +356,7 @@
             "paddingBottom": "2",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/images-2000x1573.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1291.jpg",
             "bgColor": "#f3c649",
             "bgColorRadio": false,
             "overlay": false,
@@ -402,7 +368,7 @@
             "vkontakte": false,
             "odnoklassniki": false
           },
-          "text": "Condividi la Promo"
+          "text": "Condividi&nbsp;"
         },
         {
           "_tags": [
@@ -411,7 +377,7 @@
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#f3c649",
+              "color": "#fac51c",
               "text-align": "center"
             },
             "STRONG": {
@@ -433,7 +399,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/insicilialogo-128x57.png",
+              "src": "@PROJECT_PATH@/assets/images/sintesi-128x35.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -447,9 +413,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Indirizzo</strong><br>InSicilia Food and Beverage<br>via castellana bandiera 5a<br>90142 Palermo",
-          "text2": "<strong>Contatti</strong><br>\nEmail: info@insicilia.com<br>\nPhone: +39&nbsp;3280173896<br><br>",
-          "text3": "<p><strong>Link</strong><br><a href=\"http://www.insicilia.com\" target=\"_blank\" class=\"text-warning\">www.insicilia.com</a><br><br></p>"
+          "text1": "<strong>Indirizzo</strong><br>SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
+          "text2": "<strong>Contatti</strong><br>info@sintesicar.it &nbsp; &nbsp;+39 366.4133619<br><br>",
+          "text3": "<p><strong>Link</strong><br>www.<a href=\"http://www.sintesicar.it\" target=\"_blank\" class=\"text-warning\">sintesicar</a>.it<br><br></p>"
         }
       ]
     }

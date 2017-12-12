@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -81,13 +82,13 @@ h6,
   font-family: 'Lora', serif;
 }
 .bg-primary {
-  background-color: #c0a375 !important;
+  background-color: #d14841 !important;
 }
 .bg-success {
   background-color: #90a878 !important;
 }
 .bg-info {
-  background-color: #7e9b9f !important;
+  background-color: #d14841 !important;
 }
 .bg-warning {
   background-color: #f3c649 !important;
@@ -96,8 +97,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #d14841;
+  border-color: #d14841;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -106,14 +107,14 @@ h6,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #a07e49;
-  border-color: #a07e49;
+  background-color: #9f2c26;
+  border-color: #9f2c26;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #a07e49 !important;
-  border-color: #a07e49 !important;
+  background-color: #9f2c26 !important;
+  border-color: #9f2c26 !important;
 }
 .btn-secondary {
   background-color: #bfcecb;
@@ -136,8 +137,8 @@ h6,
   border-color: #94ada8 !important;
 }
 .btn-info {
-  background-color: #7e9b9f;
-  border-color: #7e9b9f;
+  background-color: #d14841;
+  border-color: #d14841;
   color: #ffffff;
 }
 .btn-info:hover,
@@ -146,14 +147,14 @@ h6,
 .btn-info:active,
 .btn-info.active {
   color: #ffffff;
-  background-color: #597478;
-  border-color: #597478;
+  background-color: #9f2c26;
+  border-color: #9f2c26;
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #597478 !important;
-  border-color: #597478 !important;
+  background-color: #9f2c26 !important;
+  border-color: #9f2c26 !important;
 }
 .btn-success {
   background-color: #90a878;
@@ -217,8 +218,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #8e7041;
-  color: #8e7041;
+  border-color: #8a2722;
+  color: #8a2722;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -226,14 +227,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #d14841;
+  border-color: #d14841;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #c0a375 !important;
-  border-color: #c0a375 !important;
+  background-color: #d14841 !important;
+  border-color: #d14841 !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -257,8 +258,8 @@ h6,
 }
 .btn-info-outline {
   background: none;
-  border-color: #4e6669;
-  color: #4e6669;
+  border-color: #8a2722;
+  color: #8a2722;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
@@ -266,14 +267,14 @@ h6,
 .btn-info-outline:active,
 .btn-info-outline.active {
   color: #ffffff;
-  background-color: #7e9b9f;
-  border-color: #7e9b9f;
+  background-color: #d14841;
+  border-color: #d14841;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #ffffff !important;
-  background-color: #7e9b9f !important;
-  border-color: #7e9b9f !important;
+  background-color: #d14841 !important;
+  border-color: #d14841 !important;
 }
 .btn-success-outline {
   background: none;
@@ -336,13 +337,13 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #c0a375 !important;
+  color: #d14841 !important;
 }
 .text-success {
   color: #90a878 !important;
 }
 .text-info {
-  color: #7e9b9f !important;
+  color: #d14841 !important;
 }
 .text-warning {
   color: #f3c649 !important;
@@ -354,7 +355,7 @@ h6,
   background-color: #90a878;
 }
 .alert-info {
-  background-color: #7e9b9f;
+  background-color: #d14841;
 }
 .alert-warning {
   background-color: #f3c649;
@@ -363,36 +364,36 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #c0a375;
+  border-color: #d14841;
 }
 .btn-social:hover {
-  background: #c0a375;
+  background: #d14841;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #c0a375;
+  color: #d14841;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #c0a375;
+  color: #d14841;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #c0a375;
+  background: #d14841;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #c0a375;
+  color: #d14841;
 }
 .lead a,
 .lead a:hover {
-  color: #c0a375;
+  color: #d14841;
 }
 .lead blockquote {
-  border-color: #c0a375;
+  border-color: #d14841;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #e8ddcd;
+  color: #f9e6e5;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -400,7 +401,7 @@ h6,
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #c7d4d5;
+  color: #f9e6e5;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -412,22 +413,23 @@ h6,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #c0a375;
+  color: #d14841;
 }
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
 #header1-0 .mbr-section-title {
   font-size: 36px;
-  color: #f3c649;
+  color: #faaf40;
+  font-family: 'Lora', serif;
 }
 #header1-0 .mbr-section-lead SPAN {
   font-size: 30px;
   color: #ffffff;
 }
 #header1-0 .mbr-section-lead {
-  font-size: 32px;
-  color: #f7da64;
+  font-size: 84px;
+  color: #faaf40;
 }
 #form2-1 .mbr-section-title {
   color: #f3c649;
@@ -441,6 +443,10 @@ h6,
 }
 #msg-box5-9 H3 {
   color: #f3c649;
+  font-size: 48px;
+}
+#msg-box5-9 SPAN {
+  font-size: 36px;
 }
 #testimonials2-6 .mbr-section-title {
   color: #f3c649;
@@ -449,7 +455,7 @@ h6,
   color: #ffffff;
 }
 #contacts1-8 P {
-  color: #f3c649;
+  color: #fac51c;
   text-align: center;
 }
 #contacts1-8 STRONG {
