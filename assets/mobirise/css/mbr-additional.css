@@ -425,17 +425,20 @@ h6,
 }
 #header1-0 .mbr-section-lead SPAN {
   font-size: 19px;
-  color: #ffffff;
+  color: #e25041;
 }
 #header1-0 .mbr-section-lead {
   font-size: 30px;
-  color: #ffffff;
+  color: #000000;
 }
 #header1-0 .mbr-section-title DIV {
   text-align: left;
 }
 #header1-0 .btn {
-  font-size: 20px;
+  font-size: 25px;
+}
+#header1-0 .mbr-section-title SPAN {
+  color: #faaf40;
 }
 #form2-1 .mbr-section-title {
   color: #f3c649;
