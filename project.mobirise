@@ -71,7 +71,7 @@
               "color": "#faaf40"
             },
             ".mbr-section-lead B": {
-              "color": "#e25041",
+              "color": "#1b1f29",
               "font-size": "30px"
             }
           },
@@ -80,7 +80,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale3-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/prova12-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -136,7 +136,7 @@
           "form": {
             "action": "andrea.cavallaro@msn.com",
             "alerts": {
-              "success": "Grazie!!!"
+              "success": "Grazie! Sarai contattato al più presto da un Nostro incaricato."
             },
             "fields": {
               "email": {
@@ -155,7 +155,7 @@
           "_name": "gallery2",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingBottom": "1",
             "images": [
               {
                 "tags": "Awesome",
@@ -201,7 +201,7 @@
             "spacing": "0",
             "showText": true,
             "filter": false,
-            "bgColor": "fff",
+            "bgColor": "#1b1f29",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -223,6 +223,9 @@
             "SPAN": {
               "font-size": "36px",
               "color": "#faaf40"
+            },
+            "P": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "msg-box5-9",
@@ -233,7 +236,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#1b1f29",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -346,7 +349,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#1b1f29",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.2,
@@ -403,12 +406,12 @@
           },
           "_anchor": "contacts1-8",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#1b1f29",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
