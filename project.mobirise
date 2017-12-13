@@ -61,8 +61,8 @@
             },
             ".mbr-section-title DIV": {
               "text-align": "left",
-              "color": "#b8312f",
-              "font-size": "80px",
+              "color": "#ffffff",
+              "font-size": "36px",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             },
@@ -82,7 +82,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "showArrow": true,
+            "showArrow": false,
             "bgImage": "@PROJECT_PATH@/assets/images/prova12-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
@@ -98,8 +98,8 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1; font-size: 46px;\">Il Noleggio&nbsp;</span><span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1; font-size: 46px;\">a Lungo Termine</span><span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1;\">ti conviene!</span>",
-          "text": "<b>Aziende,</b><br><b>Professionisti, </b><br><b>Privati</b><b>.</b><br>",
+          "title": "<span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1; font-size: 46px;\">Il Noleggio&nbsp;</span><span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1; font-size: 46px;\">a Lungo Termine</span><span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1;\">ti conviene!</span><span style=\"line-height: 1.1; font-size: 46px;\"><br></span><div><span style=\"color: rgb(255, 255, 255); font-size: 36px; line-height: 1.1;\">aziende,</span><br></div><div>professionisti,</div><div>privati.</div>",
+          "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
         {
@@ -283,6 +283,9 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#faaf40"
+            },
+            ".card-footer > div": {
+              "color": "#ffffff"
             }
           },
           "testimonial": [

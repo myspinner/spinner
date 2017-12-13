@@ -436,8 +436,8 @@ h6,
 }
 #header1-0 .mbr-section-title DIV {
   text-align: left;
-  color: #b8312f;
-  font-size: 80px;
+  color: #ffffff;
+  font-size: 36px;
   font-family: 'Lora', serif;
 }
 #header1-0 .btn {
@@ -474,6 +474,9 @@ h6,
 }
 #testimonials2-6 .mbr-section-title {
   color: #faaf40;
+}
+#testimonials2-6 .card-footer > div {
+  color: #ffffff;
 }
 #social-buttons1-7 .mbr-section-title {
   color: #faaf40;
