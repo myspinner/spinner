@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -74,7 +74,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/okok-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale1-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -120,7 +120,7 @@
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlayOpacity": "0.3",
             "overlayColor": "#000000",
             "showTitle": true,
             "showSubTitle": true
@@ -260,7 +260,7 @@
             }
           },
           "title": "Tutti i servizi inclusi<br><span style=\"font-weight: normal;\">Un solo canone mensile</span>",
-          "text": "<b>Acquistare un’automobile</b> da sempre, <br>è uno dei <b>costi più significativi per una famiglia</b>.<br>Per quanto sia possibile ottenere finanziamenti o agevolazioni, <br>è comunque necessario investire una somma importante. <br>Infatti, possedere un veicolo, comporta una serie di costi <br>non trascurabili come il bollo, l’assicurazione, <br>la manutenzione periodica e quella straordinaria. <br>E allora <b>perché non noleggiare un’auto anziché comprarli</b>?",
+          "text": "<b>Acquistare un’automobile</b> da sempre, <br>rappresenta un&nbsp;<b>costo significativo</b>.<br>Per quanto sia possibile ottenere finanziamenti o agevolazioni, <br>è comunque necessario investire una somma importante. <br>Infatti, possedere un veicolo, comporta una serie di costi <br>non trascurabili come il bollo, l’assicurazione, <br>la manutenzione periodica e quella straordinaria. <br>E allora <b>perché non noleggiare un’auto anziché comprarla?</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICHIEDI IL PREVENTIVO</a>"
         },
         {
@@ -293,7 +293,7 @@
               "authorBio": ""
             },
             {
-              "text": "Ho trovato la migliore occasione su Sintesi Car!",
+              "text": "Ho fatto un ottimo affare, scegliendo la promo del mese su Sintesi Car!",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/71675-457218909003-1889378-n-160x120.jpg",
@@ -311,7 +311,7 @@
               "authorBio": ""
             },
             {
-              "text": "<p>Mi complimento per la serietà ed estrema competenza. </p><p>Sono rimasto molto soddisfatto.&nbsp;</p>",
+              "text": "<p>Mi complimento per la serietà e l'estrema competenza. </p><p>Sono rimasto molto soddisfatto!&nbsp;</p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/21740294-120515838690406-8232567404811584895-n-160x160.jpg",
@@ -325,7 +325,7 @@
                   "linkInNewWindow": false
                 }
               },
-              "authorName": "GIanni&nbsp;",
+              "authorName": "Gianni&nbsp;",
               "authorBio": ""
             }
           ],
@@ -388,7 +388,7 @@
           "_name": "contacts1",
           "_styles": {
             "P": {
-              "color": "#fac51c",
+              "color": "#faaf40",
               "text-align": "center"
             },
             "STRONG": {
@@ -426,7 +426,93 @@
           },
           "text1": "<strong>Indirizzo</strong><br>SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
           "text2": "<strong>Contatti</strong><br>info@sintesicar.it &nbsp; &nbsp;+39 366.4133619<br><br>",
-          "text3": "<p><strong>Link</strong><br>www.<a href=\"http://www.sintesicar.it\" target=\"_blank\" class=\"text-warning\">sintesicar</a>.it<br><br></p>"
+          "text3": "<p><strong>Link</strong><br>www.sintesicar.it<br></p>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d14841!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-d",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/25371363-10155096690782196-1730278710-o-704x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-8\">Contatti</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         }
       ]
     }
