@@ -419,12 +419,13 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/sintesi-128x35.png",
+              "src": "@PROJECT_PATH@/assets/images/25371363-10155096690782196-1730278710-o-128x23.png",
               "width": 128,
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -434,11 +435,10 @@
               "link": "",
               "size": "1",
               "color": "#393939",
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
-          "text1": "SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
+          "text1": "SINTESI &nbsp;S.R.L. &nbsp;<br><br>",
           "text2": "info@sintesicar.it &nbsp; &nbsp;+39 366.4133619<br><br>",
           "text3": "<p>www.sintesicar.it<br></p>"
         },
