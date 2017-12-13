@@ -451,19 +451,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#faaf40"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#faaf40"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#faaf40",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -478,7 +480,7 @@
               "background": "#1b1f29"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#faaf40",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -498,9 +500,13 @@
           "_anchor": "menu-d",
           "_params": {
             "bgColor": "#1b1f29",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#faaf40",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
