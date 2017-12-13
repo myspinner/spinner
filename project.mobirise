@@ -118,7 +118,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/nono-1-2000x605.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/provha-2000x707.jpg",
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
