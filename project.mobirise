@@ -74,7 +74,7 @@
               "font-size": "46px"
             },
             ".mbr-section-lead B": {
-              "color": "#eb6b56",
+              "color": "#ffffff",
               "font-size": "30px"
             }
           },
@@ -474,13 +474,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#07080a"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#151820!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#1b1f29"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#faaf40",
@@ -502,7 +502,7 @@
           "_name": "menu",
           "_anchor": "menu-d",
           "_params": {
-            "bgColor": "#1b1f29",
+            "bgColor": "#ffffff",
             "fontSize": "1.1",
             "fontName": {
               "name": "Lora",

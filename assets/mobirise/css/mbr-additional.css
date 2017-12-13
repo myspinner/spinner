@@ -448,7 +448,7 @@ h6,
   font-size: 46px;
 }
 #header1-0 .mbr-section-lead B {
-  color: #eb6b56;
+  color: #ffffff;
   font-size: 30px;
 }
 #form2-1 .mbr-section-title {
@@ -518,19 +518,19 @@ h6,
 }
 #menu-d .link[aria-expanded="true"],
 #menu-d .dropdown-menu {
-  background: #07080a;
+  background: #e6e6e6;
 }
 #menu-d .nav-dropdown-sm .link:focus,
 #menu-d .nav-dropdown-sm .link:hover,
 #menu-d .nav-dropdown-sm .dropdown-item:focus,
 #menu-d .nav-dropdown-sm .dropdown-item:hover {
-  background: #151820!important;
+  background: #f7f7f7!important;
 }
 #menu-d .navbar,
 #menu-d .nav-dropdown-sm,
 #menu-d .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-d .nav-dropdown-sm .dropdown-menu {
-  background: #1b1f29;
+  background: #ffffff;
 }
 #menu-d .bg-color.transparent .link {
   color: #faaf40;
