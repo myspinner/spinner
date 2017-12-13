@@ -6,6 +6,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -436,16 +437,18 @@ h6,
 #header1-0 .mbr-section-title DIV {
   text-align: left;
   color: #b8312f;
-  font-size: 46px;
+  font-size: 80px;
+  font-family: 'Lora', serif;
 }
 #header1-0 .btn {
   font-size: 19px;
 }
 #header1-0 .mbr-section-title SPAN {
   color: #faaf40;
+  font-size: 46px;
 }
 #header1-0 .mbr-section-lead B {
-  color: #1b1f29;
+  color: #eb6b56;
   font-size: 30px;
 }
 #form2-1 .mbr-section-title {
