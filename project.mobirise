@@ -69,6 +69,9 @@
             },
             ".mbr-section-title SPAN": {
               "color": "#faaf40"
+            },
+            ".mbr-section-lead B": {
+              "color": "#f28281"
             }
           },
           "_anchor": "header1-0",
@@ -76,7 +79,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale1-1-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale2-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -92,7 +95,7 @@
             "showButtons": true
           },
           "title": "<br><div><span style=\"line-height: 1.1;\">Il Noleggio&nbsp;</span></div><div><span style=\"line-height: 1.1;\">a Lungo Termine</span></div><div><span style=\"line-height: 1.1;\">conviene!</span><br></div>",
-          "text": "<br><b style=\"font-style: normal;\">Aziende, Professionisti, Privati.</b><br>",
+          "text": "<br><b>Aziende, Professionisti, Privati.</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
         {
@@ -105,7 +108,7 @@
               "color": "#efefef"
             },
             ".btn": {
-              "font-size": "9px"
+              "font-size": "8px"
             }
           },
           "_tags": [
@@ -118,11 +121,11 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/provha-2000x707.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
             "bgColor": "#000000",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
+            "overlayOpacity": "0.6",
             "overlayColor": "#000000",
             "showTitle": true,
             "showSubTitle": true
@@ -137,11 +140,11 @@
             "fields": {
               "email": {
                 "title": "Email",
-                "customTitle": "inserisci la tua email"
+                "customTitle": "Inserisci Email"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SCOPRI</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Scopri Promo</a>"
         },
         {
           "_inherit": "gallery1",
@@ -376,7 +379,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "facebook": true,
-            "twitter": false,
+            "twitter": true,
             "google": false,
             "vkontakte": false,
             "odnoklassniki": false
@@ -399,8 +402,8 @@
           },
           "_anchor": "contacts1-8",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -414,7 +417,6 @@
             "image": {
               "src": "@PROJECT_PATH@/assets/images/sintesi-128x35.png",
               "width": 128,
-              "active": true,
               "link": "",
               "alt": "",
               "title": "",
@@ -422,8 +424,14 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "1",
+              "color": "#393939",
+              "newWindow": false,
+              "active": true
             }
           },
           "text1": "<strong>Indirizzo</strong><br>SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
