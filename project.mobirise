@@ -51,19 +51,20 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
             },
             ".mbr-section-lead SPAN": {
-              "font-size": "19px",
+              "font-size": "60px",
               "color": "#faaf40"
             },
             ".mbr-section-lead": {
-              "font-size": "30px",
+              "font-size": "25px",
               "color": "#000000"
             },
             ".mbr-section-title DIV": {
               "text-align": "left",
-              "color": "#faaf40"
+              "color": "#faaf40",
+              "font-size": "48px"
             },
             ".btn": {
-              "font-size": "25px"
+              "font-size": "19px"
             },
             ".mbr-section-title SPAN": {
               "color": "#faaf40"
@@ -74,7 +75,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale1-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale1-1-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -89,8 +90,8 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<br><div><span style=\"line-height: 1.1;\">Il Noleggio a Lungo Termine</span><br></div>",
-          "text": "<span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\">ti conviene!</span><span style=\"color: rgb(250, 175, 64); font-size: 84px; line-height: 1.5;\"><br></span>Aziende, Professionisti, Privati.<br>",
+          "title": "<br><div><span style=\"line-height: 1.1;\">Il Noleggio&nbsp;</span></div><div><span style=\"line-height: 1.1;\">a Lungo Termine</span></div><div><span style=\"line-height: 1.1;\">conviene!</span><br></div>",
+          "text": "<br>Aziende, Professionisti, Privati.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
         {

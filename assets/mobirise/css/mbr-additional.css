@@ -424,19 +424,20 @@ h6,
   font-family: 'Lora', serif;
 }
 #header1-0 .mbr-section-lead SPAN {
-  font-size: 19px;
+  font-size: 60px;
   color: #faaf40;
 }
 #header1-0 .mbr-section-lead {
-  font-size: 30px;
+  font-size: 25px;
   color: #000000;
 }
 #header1-0 .mbr-section-title DIV {
   text-align: left;
   color: #faaf40;
+  font-size: 48px;
 }
 #header1-0 .btn {
-  font-size: 25px;
+  font-size: 19px;
 }
 #header1-0 .mbr-section-title SPAN {
   color: #faaf40;
