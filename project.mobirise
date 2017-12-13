@@ -56,7 +56,8 @@
             },
             ".mbr-section-lead": {
               "font-size": "25px",
-              "color": "#000000"
+              "color": "#000000",
+              "text-align": "left"
             },
             ".mbr-section-title DIV": {
               "text-align": "left",
@@ -91,7 +92,7 @@
             "showButtons": true
           },
           "title": "<br><div><span style=\"line-height: 1.1;\">Il Noleggio&nbsp;</span></div><div><span style=\"line-height: 1.1;\">a Lungo Termine</span></div><div><span style=\"line-height: 1.1;\">conviene!</span><br></div>",
-          "text": "<br>Aziende, Professionisti, Privati.<br>",
+          "text": "<br><b style=\"font-style: normal;\">Aziende, Professionisti, Privati.</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
         {
