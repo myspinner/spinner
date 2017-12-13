@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "OKTOBERFEST",
+    "name": "sintesicar",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -72,7 +72,7 @@
             },
             ".mbr-section-lead B": {
               "color": "#e25041",
-              "font-size": "25px"
+              "font-size": "30px"
             }
           },
           "_anchor": "header1-0",
@@ -80,7 +80,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale2-2000x1145.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fotoprincipale3-2000x1145.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -96,7 +96,7 @@
             "showButtons": true
           },
           "title": "<span style=\"line-height: 1.1; font-size: 46px;\"><br></span><span style=\"line-height: 1.1; font-size: 46px;\">Il Noleggio&nbsp;</span><br><div><span style=\"line-height: 1.1;\">a Lungo Termine</span></div><div><span style=\"line-height: 1.1;\">conviene!</span><br></div>",
-          "text": "<b>Aziende,</b><br><b>Professionisti, </b><br><b>Privati</b><b style=\"font-style: normal;\">.</b><br>",
+          "text": "<b>Aziende,</b><br><b>Professionisti, </b><br><b>Privati</b><b>.</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">Scopri&nbsp;<br>le offerte senza anticipo<br></a> "
         },
         {
