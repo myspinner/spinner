@@ -265,8 +265,8 @@
             }
           },
           "title": "Tutti i servizi inclusi<br><span style=\"font-weight: normal;\">Un solo canone mensile</span>",
-          "text": "<b>Acquistare un’automobile</b> da sempre, <br>rappresenta un&nbsp;<b>costo significativo</b>.<br>Per quanto sia possibile ottenere finanziamenti o agevolazioni, <br>è comunque necessario investire una somma importante. <br>Infatti, possedere un veicolo, comporta una serie di costi <br>non trascurabili come il bollo, l’assicurazione, <br>la manutenzione periodica e quella straordinaria. <br>E allora <b>perché non noleggiare un’auto anziché comprarla?</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICHIEDI IL PREVENTIVO</a>"
+          "text": "<b>Acquistare un’automobile</b> da sempre, <br>rappresenta un&nbsp;<b>costo significativo</b>.<br>Per quanto sia possibile ottenere finanziamenti o agevolazioni, <br>è comunque necessario investire una somma importante. <br>Infatti, possedere un veicolo, comporta una serie di costi <br>non trascurabili come il bollo, l’assicurazione, <br>la manutenzione periodica e quella straordinaria. <br>E allora <b>perché non noleggiare un’auto anziché comprarla?</b><b><br></b><br><b>Chiamaci&nbsp;</b>+393664133619&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#form2-1\" data-toolbar=\"-mbrBtnMove\">RICHIEDI INFO</a>"
         },
         {
           "_tags": [
@@ -407,7 +407,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -434,9 +434,9 @@
               "active": true
             }
           },
-          "text1": "<strong>Indirizzo</strong><br>SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
-          "text2": "<strong>Contatti</strong><br>info@sintesicar.it &nbsp; &nbsp;+39 366.4133619<br><br>",
-          "text3": "<p><strong>Link</strong><br>www.sintesicar.it<br></p>"
+          "text1": "SINTESI &nbsp;S.R.L. &nbsp;P.IVA : 05416370871<br><br>",
+          "text2": "info@sintesicar.it &nbsp; &nbsp;+39 366.4133619<br><br>",
+          "text3": "<p>www.sintesicar.it<br></p>"
         },
         {
           "_styles": {
